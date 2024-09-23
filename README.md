@@ -13,3 +13,8 @@ Rekommendationer
 Upprepning av call to action
 Footer
 
+## Hur ni klarar uppgiften
+
+Ni ska utgå från texten på?och skapa er sida med ovan listade delar enligt bilden nedanför. Knappar och länkar behöver inte fungera.
+Ni ska använda CSS Flexbox för Layout
+

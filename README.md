@@ -15,7 +15,7 @@ En landningssida består av ofta av följande delar:
 * Upprepning av call to action
 * Footer
 
-## 📃 Instruktioner
+## ➡️ Instruktioner
 
 
 Utgå från texten och bilderna på https://www.volvocars.com/se och skapa sidan enligt bild nedan. Det viktiga är att ni använder CSS Flexbox för layout. Fokusera främst på layouten och arbeta med detaljer om ni hinner. Knappar och länkar behöver inte fungera. Använd semantiska element i så stor utsträckning som möjligt.

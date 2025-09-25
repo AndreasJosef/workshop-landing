@@ -1,0 +1,18 @@
+.card {
+
+    a {
+        font-weight: 600;
+    }
+
+    img {
+        margin-bottom: var(--space-2);
+    }
+}
+
+.card-header {
+    margin-bottom: var(--space-1);
+}
+
+.card-description {
+    margin-bottom: var(--space-1);
+}

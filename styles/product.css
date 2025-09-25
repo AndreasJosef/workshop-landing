@@ -44,8 +44,9 @@
 }
 
 .product-section-gallery {
-    margin-top: var(--space-5);
+    margin: var(--space-5) 0;
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -55,5 +56,9 @@
         flex-direction: row;
         justify-content: space-between;    
         padding: 0 1rem;
+    }
+
+    .product-section-gallery {
+        flex-direction: row;
     }
 }

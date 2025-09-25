@@ -1,3 +1,128 @@
 .page-header {
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #Fafafafa;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 64px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.page-header-section-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45%;
+}
+.page-header-button-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.page-header-button-menu:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.page-header-hamburger{
+    width: 18px;
+    height: 18px;
+}
+
+.page-header-main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.page-header-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.page-header-nav-links li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+    font-size: 12px;
+    padding: 6px 2px 6px 2px;
+    font-weight: 700;
+}
+
+.page-header-nav-links li a:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.page-header-section-logo {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+
+}
+
+.page-header-logo-svg {
+    width: 78px;
+    color: #0a0a0a0a;
+    height: auto;
+    padding: 16px 0px;
+}
+
+.page-header-section-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+}
+
+.page-header-button-login {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.page-header-button-login:hover {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.page-header-icon-search {
+    width: 18px;
+    height: 18px;
+}
+
+.page-header-user {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.page-header-button-search {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.page-header-button-search:hover {
+    background-color: #e0e0e0;
+    border-radius: 25px;
 }

@@ -1,3 +1,53 @@
-.hero{
-    background-color: blue;
+.page-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-bottom: 100px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-image: url("hero-bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-hero-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-inline-start: 20px;
+}
+
+.page-hero-section p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-inline-start: 20px;
+}
+
+.page-hero-section .explore-button{ 
+  padding: 0.7rem 1.5rem;
+  border: 1px solid white;
+  background: white;
+  color: rgb(1, 1, 1);
+  cursor: pointer;
+  margin-inline-start: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.page-hero-section .offers-button {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  margin-inline-start: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.page-hero-section .logo-container {
+  align-self: center;
+  height: 100vh;
 }

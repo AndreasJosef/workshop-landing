@@ -1,3 +1,141 @@
-.page-footer {
-    background-color: orange;
+.footer-content1 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+.footer-content2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.location-pin {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+
+}
+
+.footer-content3 {
+    
+}
+.footer-content4 {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    align-items: center;
+}
+.footer-info {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.footer-links-list {
+    display: flex;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-content5 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.support-title {
+    font-size: 12px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+.contact-title {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.app-title {
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.support-link {
+    display: flex;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.contact-link {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+}
+.app-link {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+}
+.app-link a {
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+.app-link a:hover {
+    text-decoration: underline;
+}
+.contact-link a {
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+.contact-link a:hover {
+    text-decoration: underline;
+}
+.support-link a {
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+.support-link a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-button-icon {
+    border: none;
+    background-color: transparent;
+
+}
+
+.location {
+    display: flex;
+    
+}
+.footer-info a {
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 400;
 }
